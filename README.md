@@ -4,7 +4,7 @@
 This project implements a real-time data pipeline for fetching weather data from the Weather API, storing it in DynamoDB, transferring it to S3, and loading it into Snowflake for analysis. The architecture leverages AWS Lambda functions to facilitate data extraction and movement across services, ensuring a seamless flow of weather data.
 
 ## Architecture Diagram
-![Architecture Diagram](path/to/architecture_diagram.png)  <!-- Update with the path to your architecture diagram -->
+![Architecture Diagram](https://github.com/vighneshbuddhivant/weather-pipeline-using-lambda/blob/f850a84b626a1e0f32e2140faf4d40ff3156306e/weather-pipeline-architecture.png)  <!-- Update with the path to your architecture diagram -->
 
 ## Architecture Explanation
 1. **Weather API**: Data is extracted from the Weather API, which provides real-time weather information based on city queries.
